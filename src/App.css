@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  font-size: 20px;
+  margin: 0.5cm;
+}
+
+.question{
+  font-size: 70px;
+  font-weight: 700;
+  
+}
+
+#score{
+  font-size: 1.2cm;
+  font-weight: 700;
+  margin: 1cm;
+}
+
+.correct{
+  color: lightgreen;
+  text-shadow: 0 0 20px lightgreen,0 0 50px lightgreen,0 0 20px lightgreen;
+}
+
+.incorrect{
+  color: red;
+  text-shadow: 0 0 20px red, 0 0 50px red, 0 0 20px red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
